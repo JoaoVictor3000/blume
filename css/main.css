@@ -1,0 +1,230 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+ul {
+    padding: 0px!important;
+}
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 50px;
+}
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    width: 98%;
+    top: -22px;
+    text-transform: uppercase;
+    font-family:Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+.header-2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+.menu-urls {
+    border-bottom: 3px solid #efefef;
+    height: 80px;
+}
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+} 
+.menu ul li:hover {
+    border-bottom: 3px solid gold;
+}
+.menu ul li a:hover {
+    color: gold;
+} 
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+} 
+.menu {
+    width: 70%;
+    float: left;
+}
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    margin-top: 10px;
+    padding: 12px;
+    width: 190px;
+    height: 36px;
+    border: 1px solid gold;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    position: absolute;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url(../img/anterior.png);
+    top: 35%;
+    left: 14%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    position: absolute;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url(../img/proximo.png);
+    top: 35%;
+    right: 14%;
+}
+.slick-list {
+    width: 100%!important;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 43%;
+    top: 590px;
+}
+li.slick-active button {
+    background: gold;
+}
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque h1 {
+    color: #818181;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.texto-destaque p {
+    color: #9a9a9a;
+    font-size: 15px;
+}
+.col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-texto {
+    margin-top: 3em;
+    float: left;
+    text-transform: lowercase;
+}
+h3 {
+    font-weight: normal!important;
+}
+.produtos {
+    text-align: left;
+    float: left;
+    position: relative;
+}
+h3 {
+    text-transform: uppercase;
+    color: #9a9a9a;
+}
+.principal-T {
+    text-transform: uppercase;
+    color: #9a9a9a;
+    position: relative;
+    left: 584px;
+    width: 500px;
+    top: 20px;
+}
+.ingredientes ul li {
+    color: #9a9a9a;
+    display: list-item;
+    position: relative;
+    left: 584px;
+    width: 500px;
+    top: 20px;
+}
+.principal-P {
+    color: #9a9a9a;
+    position: relative;
+    left: 825px;
+    width: 500px;
+    top: -128px;
+    text-align: center;
+}
+.diferente-T {
+    text-transform: uppercase;
+    color: #9a9a9a;
+    position: relative;
+    left: 199%;
+    width: 300px;
+    top: -133px;
+}
+.diferente-P {
+    color: #9a9a9a;
+    position: relative;
+    left: 410px;
+    width: 500px;
+    top: -18px;
+    text-align: center;
+}
+.esfoliante {
+    height: 500px;
+    width: 500px;
+}
+.distinto-T {
+    text-transform: uppercase;
+    color: #9a9a9a;
+    position: relative;
+    left: 605px;
+    width: 500px;
+    top: -24px;
+}
+.sabao-l {
+    height: 500px;
+    width: 500px;
+}
+.sabao-d {
+    height: 500px;
+    width: 500px;
+}
+.hidratante {
+    height: 500px;
+    width: 500px;
+}
